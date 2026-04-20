@@ -3,74 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STANDBY | The Future is Here</title>
+    <title>STANDBY | Profoundly Powerful</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">STANDBY</div>
-        <ul class="nav-links">
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#design">Design</a></li>
-            <li><a href="#colors">Colors</a></li>
-            <li><a href="#concept">Concept</a></li>
-        </ul>
+    <!-- 상단 미니멀 네비게이션 -->
+    <nav class="top-bar">
+        <div class="top-left">STANDBY® Official Site</div>
+        <div class="top-center">Profoundly Powerful (2026)</div>
+        <div class="top-right">Index p.(1-21)</div>
     </nav>
 
-    <main>
-        <!-- Hero Section using Basic Images -->
-        <section id="overview" class="hero-section fade-in">
-            <div class="hero-content">
-                <h1>Profoundly Powerful.</h1>
-                <p>Experience the seamless integration of art and technology.</p>
-            </div>
-            <div class="hero-image-container">
-                <img src="Basic/Basic_3.png" alt="Antigravity Product Main" class="hero-image parallax">
-            </div>
-        </section>
-
-        <!-- Feature Section using Basic Images -->
-        <section id="design" class="feature-section">
-            <div class="feature-text slide-up">
-                <h2>Designed to defy expectations.</h2>
-                <p>Every curve and material meticulously chosen to craft an unparalleled aesthetic experience.</p>
-            </div>
-            <div class="feature-gallery">
-                <img src="Basic/Basic_2.png" alt="Product detail 1" class="gallery-img fade-in delay-1">
-                <img src="Basic/Basic_1.png" alt="Product detail 2" class="gallery-img fade-in delay-2">
-                <img src="Basic/Basic_4.png" alt="Product detail 3" class="gallery-img fade-in delay-3">
-            </div>
-        </section>
-
-        <!-- Color Variation Section -->
-        <section id="colors" class="color-section">
-            <div class="color-header slide-up">
-                <h2>Brilliant in every shade.</h2>
-                <p>Choose the color that matches your unique style.</p>
-            </div>
-            <div class="color-grid">
-                <div class="color-item fade-in">
-                    <img src="Color/Color all.png" alt="All Color Variations">
+    <!-- 스위스 디자인 무드의 타이포그래피 헤더 -->
+    <header class="hero-text-section">
+        <div class="hero-text-content">
+            <h1 class="slide-up">STANDBY&reg;<br>Profoundly<br>Powerful</h1>
+            <div class="hero-meta fade-in delay-1">
+                <div class="meta-column">
+                    <p>Designed to defy expectations.<br>Every curve and material meticulously chosen.</p>
+                </div>
+                <div class="meta-column">
+                    <p>Experience the seamless integration<br>of art and technology.</p>
                 </div>
             </div>
+        </div>
+        <div class="hero-sidebar fade-in delay-2">
+            <div class="sidebar-block">
+                <h4>Profile (Sample)</h4>
+                <p>Nam lobortis vitae, amet sagittis dui velit vitae neque. Suspendisse potenti.</p>
+            </div>
+            <div class="sidebar-block">
+                <h4>Education</h4>
+                <p>Vestibulum Euismod Ultrices<br>2023</p>
+            </div>
+            <div class="sidebar-block">
+                <h4>Employment</h4>
+                <p>Pellentesque Habitant<br>'Morbi Tristique Senectus'<br>2024</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 풀스크린 갤러리 영역 -->
+    <main class="image-gallery">
+        <!-- 1. 메인: Basic_3 -->
+        <section class="fullscreen-image fade-in">
+            <img src="Basic/Basic_3.png" alt="STANDBY Main" class="parallax-img">
+        </section>
+        
+        <!-- 2. 메인: Basic_1 -->
+        <section class="fullscreen-image fade-in">
+            <img src="Basic/Basic_1.png" alt="STANDBY Detail 1" class="parallax-img">
+        </section>
+        
+        <!-- 3. 메인: Basic_2 -->
+        <section class="fullscreen-image fade-in">
+            <img src="Basic/Basic_2.png" alt="STANDBY Detail 2" class="parallax-img">
+        </section>
+        
+        <!-- 4. 메인: Concept_3 -->
+        <section class="fullscreen-image fade-in">
+            <img src="Concept/Concept_3.png" alt="STANDBY Concept 3" class="parallax-img">
         </section>
 
-        <!-- Concept Section -->
-        <section id="concept" class="concept-section">
-            <div class="concept-text slide-up">
-                <h2>Beyond the surface.</h2>
-                <p>Our philosophy is rooted in minimalism and absolute perfection.</p>
-            </div>
-            <div class="concept-images">
-                <img src="Concept/Concept_1.png" alt="Concept 1" class="concept-img slide-in-left">
-                <div class="concept-side">
-                    <img src="Concept/Concept_2.png" alt="Concept 2" class="concept-img slide-in-right delay-1">
-                    <img src="Concept/Concept_3.png" alt="Concept 3" class="concept-img slide-in-right delay-2">
-                </div>
-            </div>
+        <!-- 5. 디테일: Color all -->
+        <section class="fullscreen-image bg-light fade-in">
+            <img src="Color/Color all.png" alt="STANDBY Colors" class="parallax-img contain-img">
+        </section>
+
+        <!-- 6. 컨셉: Concept_2 -->
+        <section class="fullscreen-image fade-in">
+            <img src="Concept/Concept_2.png" alt="STANDBY Concept 2" class="parallax-img">
+        </section>
+        
+        <!-- 7. 컨셉: Concept_1 -->
+        <section class="fullscreen-image fade-in">
+            <img src="Concept/Concept_1.png" alt="STANDBY Concept 1" class="parallax-img">
         </section>
     </main>
 
