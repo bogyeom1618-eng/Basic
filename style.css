@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: 'Pretendard Variable', Pretendard, -apple-system, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.4;
@@ -39,16 +39,16 @@ body {
 /* Hero Text Section (Swiss Typography Style) */
 .hero-text-section {
     min-height: 100vh;
-    padding: 6rem 2rem 2rem 2rem;
+    padding: 12rem 2rem 2rem 2rem;
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 4rem;
+    align-items: start;
 }
 
 .hero-text-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .hero-text-content h1 {
@@ -58,6 +58,7 @@ body {
     letter-spacing: -0.04em;
     margin-bottom: 4rem;
     text-transform: none;
+    margin-top: -0.15em; /* h1의 상단 여백을 시각적으로 상쇄하여 h4와 수평을 맞춤 */
 }
 
 .hero-meta {
@@ -78,7 +79,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding-top: 4rem;
+    padding-top: 0;
 }
 
 .sidebar-block h4 {
@@ -112,6 +113,16 @@ body {
     overflow: hidden;
 }
 
+.tight-bottom {
+    padding-bottom: 1rem;
+    min-height: auto;
+}
+
+.tight-top {
+    padding-top: 1rem;
+    min-height: auto;
+}
+
 .section-title {
     position: absolute;
     top: 2rem;
@@ -135,6 +146,16 @@ body {
 /* Color 섹션처럼 하나로 모아봐야 하는 이미지는 contain 처리 */
 .contain-img {
     padding: 0;
+}
+
+.color-video {
+    max-width: 1600px;
+    max-height: 95vh;
+}
+
+.large-text-img {
+    max-width: 1800px;
+    max-height: 95vh;
 }
 
 .bg-light {
