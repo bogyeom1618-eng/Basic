@@ -143,6 +143,10 @@ body {
     transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+.wide-img {
+    max-height: 95vh; /* 세로 제한을 완화하여 가로 너비를 더 확보 */
+}
+
 /* Color 섹션처럼 하나로 모아봐야 하는 이미지는 contain 처리 */
 .contain-img {
     padding: 0;
