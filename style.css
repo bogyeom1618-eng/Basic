@@ -74,8 +74,6 @@ body {
 }
 
 .hero-sidebar {
-    border-left: 1px solid var(--border-color);
-    padding-left: 2rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
