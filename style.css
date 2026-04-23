@@ -36,6 +36,12 @@ body {
     color: #fff;
 }
 
+.top-left a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Hero Text Section (Swiss Typography Style) */
 .hero-text-section {
     min-height: 100vh;
