@@ -219,11 +219,39 @@ footer {
         gap: 2rem;
     }
 
+    .fullscreen-image {
+        min-height: 60vh;
+        padding: 2rem 1.5rem;
+    }
+
+    .hero-text-content h1 {
+        margin-bottom: 2rem;
+    }
+
     .contain-img {
-        padding: 2rem;
+        padding: 1rem;
     }
     
     .top-bar {
         font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .fullscreen-image {
+        min-height: auto;
+        padding: 1.5rem 1rem;
+    }
+
+    .tight-bottom {
+        padding-bottom: 0.5rem;
+    }
+
+    .tight-top {
+        padding-top: 0.5rem;
+    }
+
+    .hero-text-content h1 {
+        margin-bottom: 1.5rem;
     }
 }
