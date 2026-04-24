@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STANDBY | Login</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+    <nav class="top-bar">
+        <div class="top-left"><a href="index.html">STANDBY® Official Site</a></div>
+        <div class="top-right">
+            <a href="index.html" class="nav-link">← Back to Site</a>
+        </div>
+    </nav>
+
+    <main class="login-container">
+        <div class="login-content fade-in visible">
+            <header class="login-header">
+                <h1 class="slide-up visible">Sign in</h1>
+                <p class="subtitle">or <a href="#" class="inline-link">create an account</a></p>
+            </header>
+
+            <form class="login-form">
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Email address</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required placeholder=" ">
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgotten your password?</a>
+                </div>
+
+                <button type="submit" class="login-btn">Sign in</button>
+                
+                <div class="divider">
+                    <span>or</span>
+                </div>
+
+                <button type="button" class="google-btn">
+                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo">
+                    Sign in with Google
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
