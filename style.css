@@ -293,15 +293,25 @@ footer {
     }
     
     .top-bar {
-        font-size: 0.75rem;
+        font-size: 0.7rem; /* 더 작은 폰트 크기 */
+        padding: 0.8rem 1rem; /* 여백 축소 */
+    }
+
+    .hide-mobile {
+        display: none;
     }
     
     .top-right {
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .top-center {
-        display: none; /* 모바일에서는 공간 부족으로 숨기거나 위치 조정 필요 */
+        display: flex;
+    }
+
+    .shop-btn {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
